@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box100 {
+    width: 100%;
+    text-align: center;
+}
+
+#container #languages #english:hover > #worldMap {
+    animation: northAmerica 5s ease;
+}
+
+@keyframes northAmerica {
+    from {
+        transform: scale(100%);  
+    } to {
+        transform: scale(30%);  
+    }
+}
