@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box100 {
+    width: 100%;
+    text-align: center;
+}
+
+#NorthAmerica, #SouthAmerica, #Australia, #Asia, #Europe, #Africa {
+    transform: scale(60%);
+}
+
+#NorthAmerica:hover, #SouthAmerica:hover, #Australia:hover, #Asia:hover, #Europe:hover, #Africa:hover {
+    animation: northAmerica 5s ease;
+}
+
+@keyframes northAmerica {
+    from {
+        transform: scale(60%);  
+    } to {
+        transform: scale(100%);  
+    }
+}
